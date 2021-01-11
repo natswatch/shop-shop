@@ -34,6 +34,7 @@ function Login(props) {
       </Link>
 
       <h2>Login</h2>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2">
           <label htmlFor="email">Email address:</label>
